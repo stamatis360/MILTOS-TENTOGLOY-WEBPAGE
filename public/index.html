@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Μίλτος Τεντόγλου</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Μίλτος Τεντόγλου</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#" data-section="bio">Βιογραφία</a></li>
+        <li><a href="#" data-section="photos">Φωτογραφίες</a></li>
+        <li><a href="#" data-section="achievements">Διακρίσεις</a></li>
+        <li><a href="#" data-section="links">Σύνδεσμοι</a></li>
+        <li><a href="#" data-section="admin">Διαχείριση</a></li>
+      </ul>
+    </nav>
+    <aside>
+      <div id="aside-bio" class="aside-section">
+        <h3>Βιογραφία Μίλτου Τεντόγλου</h3>
+        <ul>
+          <li><a href="#" data-bio="early">Πρώτα Χρόνια (1998-2016)</a></li>
+          <li><a href="#" data-bio="career">Αθλητική Καριέρα (2017-Σήμερα)</a></li>
+        </ul>
+      </div>
+      <div id="aside-photos" class="aside-section hidden">
+        <h3>Φωτογραφίες</h3>
+        <ul>
+          <li><a href="#" data-photo="competitions">Αγώνες & Πρωταθλήματα</a></li>
+          <li><a href="#" data-photo="training">Προπόνηση & Προετοιμασία</a></li>
+        </ul>
+      </div>
+      <div id="aside-achievements" class="aside-section hidden">
+        <h3>Διακρίσεις Τεντόγλου</h3>
+        <ul>
+          <li><a href="#" data-achievement="olympic">Ολυμπιακές Διακρίσεις</a></li>
+          <li><a href="#" data-achievement="world">Παγκόσμια Πρωταθλήματα</a></li>
+        </ul>
+      </div>
+      <div id="aside-links" class="aside-section hidden">
+        <h3>Σύνδεσμοι για τον Τεντόγλου</h3>
+        <ul>
+          <li><a href="#" data-link="videos">Βίντεο & Συνεντεύξεις</a></li>
+          <li><a href="#" data-link="articles">Άρθρα & Ειδήσεις</a></li>
+        </ul>
+      </div>
+      <div id="aside-admin" class="aside-section hidden">
+        <div id="admin-login">
+          <h3>Σύνδεση Διαχειριστή</h3>
+          <form id="login-form">
+            <input type="text" id="username" placeholder="Όνομα χρήστη" required>
+            <input type="password" id="password" placeholder="Κωδικός" required>
+            <button type="submit">Είσοδος</button>
+          </form>
+        </div>
+        <div id="admin-logout" class="hidden">
+          <button id="logout-btn">Αποσύνδεση</button>
+        </div>
+        <div id="admin-achievements" class="hidden">
+          <button id="manage-achievements">Διαχείριση Διακρίσεων</button>
+        </div>
+        <div id="admin-links" class="hidden">
+          <button id="manage-links">Διαχείριση Συνδέσμων</button>
+        </div>
+      </div>
+    </aside>
+    <main>
+      <div id="main-content">
+        <!-- Δυναμικό περιεχόμενο -->
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2025 Μίλτος Τεντόγλου</p>
+    </footer>
+  </div>
+</body>
+</html>

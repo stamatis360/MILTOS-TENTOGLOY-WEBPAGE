@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "Χρυσό Άλμα στο Τόκιο 2020 - Olympics", "url": "https://www.youtube.com/watch?v=2GZCdyjHR9I", "type": "videos" },
+  { "id": 2, "name": "Χρυσό Μετάλλιο στο Παρίσι 2024", "url": "https://www.youtube.com/watch?v=bWNKVCpsO_s", "type": "videos" },
+  { "id": 3, "name": "Οι Καλύτερες Στιγμές του Τεντόγλου", "url": "https://www.youtube.com/watch?v=Dgo_MFNhZzs", "type": "videos" },
+  { "id": 4, "name": "Τεντόγλου - Ελληνική Ομοσπονδία Στίβου", "url": "https://www.segas.gr/athletes/miltiadis-tentogloy/", "type": "articles" },
+  { "id": 5, "name": "Δικαιώθηκε ο Μίλτος Τεντόγλου", "url": "https://www.runbeat.gr/el/article/dikaiwthike-o-miltos-tentoglu-aposyrei-ti-zwni-apogeiwsis-sto-mikos-i-pagkosmia-omospondia-stibu", "type": "articles" },
+  { "id": 6, "name": "Μίλτος Τεντόγλου: Ο χειρότερος αγώνας της ζωής μου", "url": "https://www.dnews.gr/eidhseis/athlitismos/546158/miltos-tentoglou-o-xeiroteros-agonas-tis-zois-mou", "type": "articles" }
+]

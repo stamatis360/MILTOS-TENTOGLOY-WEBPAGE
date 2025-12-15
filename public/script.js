@@ -35,8 +35,8 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="artwork-item"><img src="ΠΑΓΚΟΣΜΙΟ.jpg" alt="Παγκόσμιο Πρωτάθλημα" class="artwork-image"><p>Παγκόσμιο Πρωτάθλημα</p></div>
         </div>`,
         training: `<h2>Προπόνηση & Προετοιμασία</h2><div class="art-gallery">
-            <div class="artwork-item"><img src="ΤΟΚΙΟ.jpg" alt="Προπόνηση στο στίβο" class="artwork-image"><p>Προπόνηση για Ολυμπιακούς</p></div>
-            <div class="artwork-item"><img src="ΠΑΡΙΣΙ.jpg" alt="Ενδυνάμωση" class="artwork-image"><p>Προετοιμασία για Παρίσι</p></div>
+            <div class="artwork-item"><img src="proponisi1.jpg" alt="Προπόνηση στο στίβο" class="artwork-image"><p>Προπόνηση στο στίβο</p></div>
+            <div class="artwork-item"><img src="proponisi2.jpg" alt="Ενδυνάμωση" class="artwork-image"><p>Ενδυνάμωση & Τεχνική</p></div>
         </div>`
     };
 
@@ -307,3 +307,4 @@ document.addEventListener("DOMContentLoaded", () => {
     // Αρχική σελίδα
     showSection('bio');
 });
+
